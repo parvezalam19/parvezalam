@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- link css -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+  <!-- Navbar section -->
+  <header class="header_wrapper">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="/logo.png" alt="logo" class="img-fluid" srcset="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav menu-navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item mt-3 mt-lg-0">
+              <a class="main-btn" href="#contact">Hire me</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Navbar section exit -->
+
+  <!-- Banner section --> 
+  <div id="home" class="banner_wrapper">
+    <div class="container">
+      <div class="row ">
+        <div class="col-sm-12 text-center text-md-start typing">
+          <h6>WELCOME TO MY WORLD</h6>
+          <h1>I'm Parvez Alam <br> <span class="ityped text-sm-start text-center"></span></h1>
+          <div class="mt-4">
+            <a href="/Parvez.f CV.pdf" download="Parvez-CV" class="main-btn">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Banner section exit -->
+
+  <!-- about section start -->
+  <section id="about" class="about_wrapper">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-lg-5 mb-lg-0 mb-4">
+          <img src="img-2.jpg" class="img-fluid rounded-3" alt="" srcset="">
+        </div>
+
+        <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+          <div class="my-3 my-lg-0">
+            <span class="subtitle">My about Details</span>
+            <h2>About Me</h2>
+            <p>I am a web developer from delhi. i enjoy bulding everything from small business steps to rich interactive web apps. if you are a business seeing a web presence or an employer to hire,you can get in touch me here.
+            </p>
+          </div>
+
+          <!-- tab content------------------------------- -->
+          <div class="pt-4">
+            <ul class="nav nav-pills mb-3 justify-content-center justify-content-lg-between" id="pills-tab"
+              role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill"
+                  type="button" role="tab" aria-controls="pills-skill" aria-selected="true">Main Skill</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-education" type="button" role="tab" aria-controls="pills-education"
+                  aria-selected="false">Education</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+                  type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+              </li>
+
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <!-- skills -------------------------->
+              <div class="tab-pane fade show active text-start" id="pills-skill" role="tabpanel"
+                aria-labelledby="pills-skill-tab" tabindex="0">
+                <div class="single-progress ">
+                  <h6>HTML</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 80%"
+                      aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span class="label">80%</span>
+                </div>
+                <div class="single-progress">
+                  <h6>CSS</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 75%"
+                      aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span class="label">75%</span>
+                </div>
+                <div class="single-progress">
+                  <h6>Javascript</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 70%"
+                      aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span class="label">70%</span>
+                </div>
+                <div class="single-progress">
+                  <h6>Bootstarp</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 90%"
+                      aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span class="label">90%</span>
+                </div>
+                <div class="single-progress">
+                  <h6>React js</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 75%"
+                      aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span class="label">75%</span>
+                </div>
+              </div>
+
+              <!-- skills  end-------------------------->
+
+
+              <!-- Education Start-------------------------->
+
+              <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab"
+                tabindex="0">
+                <ul class="text-start ps-0">
+                  <li><a href="">Btech In Civil Engineering</a>2019</li>
+                  <li><a href="">Intermediate from<span>Jamia Millia Islamia</span> </a>2015</li>
+                  <li><a href="">Metriculation from<span>Jamia Millia Islamia</span></a>2012</li>
+
+
+                </ul>
+
+              </div>
+              <!-- Education  end-------------------------->
+
+
+              <!-- contact start-------------------------->
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                tabindex="0">
+                <ul class="text-start ps-0">
+                  <li><a href="">Name:- <span> Parvez Alam</span></a></li>
+                  <li><a href="">Adress:- <span> Zakir nagr, new delhi 110025</span> </a></li>
+                  <li><a href="">Email:-<span> parvezalam9970@gmail.com</span></a></li>
+                  <li><a href="">Phone:-<span> +91-7532063883</span></a></li>
+                </ul>
+              </div>
+              <!-- Contact end-------------------------->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about section end -->
+
+  <!-- services section start -->
+  <div id="services" class="services_wrapper">
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-sm-12 text-center mb-4">
+          <span class="subtitle">What I can do for you</span>
+          <h2>My Awesome Service</h2>
+          <p>Providing a balance of designs and user experience.</p>
+        </div>
+      </div>
+      <div class="row">
+
+        <!-- 1st card -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="text-md-start text-center">
+              <img src="/service-1.svg" alt="" class="img-fluid mb-4">
+              <h3>Web Application</h3>
+              <p>Web application development is being employed widely in today's businesses across the globe.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2nd card -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="text-md-start text-center">
+              <img src="/service-2.svg" alt="" class="img-fluid mb-4">
+              <h3>UX and UI design</h3>
+              <p>UI creates a connection between the user  and the service  provider. </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 1st card -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="text-md-start text-center">
+              <img src="/service-3.svg" alt="" class="img-fluid mb-4">
+              <h3>Website Development</h3>
+              <p>Web development services help create all types of web-based  software and ensure great experience for web users</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 1st card -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="text-md-start text-center">
+              <img src="/service-4.svg" alt="" class="img-fluid mb-4">
+              <h3>HTML5 & CSS3 Development</h3>
+              <p>we’ve helped our clients create web experiences that users love!</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 1st card -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="text-md-start text-center">
+              <img src="/service-2.svg" alt="" class="img-fluid mb-4">
+              <h3>JavaScript Frameworks</h3>
+              <p>Frameworks provide developers with the basic foundation necessary for building JavaScript applications.!</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 1st card -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="text-md-start text-center">
+              <img src="/service-1.svg" alt="" class="img-fluid mb-4">
+              <h3>WordPress Development </h3>
+              <p>WordPress is open source and a cost-effective option for brands that want to build an enterprise-level website. !</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- portfolio -->
+  <section id="portfolio" class="portfolio_wrapper">
+    <div class="container">
+      <div class="row mt-4">
+        <div class="col-sm-12 text-center mb-4">
+          <span class="subtitle">
+            My Complete Projects
+          </span>
+          <h2>My Latest Projects</h2>
+          <p>Using HTML, CSS, Bootstrap and JavaScript to build the client side of a website.?</p>
+
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card p-0">
+            <span style="background-image:url('images/Foodies.png')"></span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card p-0">
+            <span style="background-image:url('Pizza-Landing-Page.png')"></span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card p-0">
+            <span style="background-image:url('HeadPhones.png')"></span>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </section>
+
+
+
+  <!-- contact section start-->
+  <section id="contact" class="contact_wrapper">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-lg-6 order-1 order-lg-1 pe-lg-5 text-lg-start text-center">
+          <span class="subtitle">My complete project</span>
+          <h2>Hire Me</h2>
+          <div class="row call_details mb-4">
+            <label for="" class="col-sm-3 col-lg-4"> Call us directly: </label>
+            <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2  text-md-start">
+              <a href="javascript:void(0)">+91-7532063883</a>
+            </div>
+            <label for="" class="col-sm-3 col-lg-4"> Contact Email: </label>
+
+            <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2  text-md-start">
+              <a href="javascript:void(0)">parvealam9970@gmail.com</a>
+            </div>
+
+          </div>
+          <form  action="mail.php" method="POST">
+            <div class="mb-4">
+              <input type="text" name="name" placeholder="Your Name...." class="form-control" autocomplete="off">
+            </div>
+            <div class="mb-4">
+              <input type="number" name="number" placeholder="Your Phone...." class="form-control" autocomplete="off">
+            </div>
+            <div class="mb-4">
+              <input type="email" name="emailaddress" placeholder="Your Email...." class="form-control" autocomplete="off">
+            </div>
+            <div class="mb-4">
+              <textarea type="message" name="message" id="" cols="40" rows="4" class="form-control"
+                placeholder="Write a Message...."></textarea>
+            </div>
+            <button type="submit" class="main-btn">Submit</button>
+
+
+          </form>
+
+        </div>
+        <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
+          <img src="contact.jpg" class="img-fluid" alt="" srcset="">
+        </div>
+
+      </div>
+    </div>
+  </section>
+<!-- contact section end-->
+
+<!-- footer section start-->
+
+<section class="footer_wrapper">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-4  col-md-6">
+        <div class="footer-logo mb-3 mb-md-0">
+          <img src="logo.png" class="img-fluid" alt="" srcset="">
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <ul class="d-flex list-unstyled justify-content-center justify-content-md-end justify-content-lg-center social-icon mb-3 mb-md-0">
+          <li>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+<div class="col-lg-4 col-md-12">
+<div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+  <p class="mb-0">Copyright @ 2022 <a href="">ParvezAlam</a> All Rights Reserved</p>
+</div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- footer section end-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- js bootstarp -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+    crossorigin="anonymous"></script>
+
+  <!-- main.js -->
+  <script src="https://unpkg.com/ityped@0.0.10"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
