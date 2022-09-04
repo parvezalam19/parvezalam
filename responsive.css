@@ -63,7 +63,7 @@ line-height: 24px;
     }
     .banner_wrapper{
         /* align-items: center; */
-        background-image: url('/images/my-img.png') ;
+        background-image: url('images/my-img.png') ;
         background-position: right;
         background-repeat: no-repeat;
         background-size: 400px;
