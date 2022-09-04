@@ -32,6 +32,8 @@ h2{
 
 
 
+
+
 @media (max-width:767px){
     
     h1{
@@ -53,27 +55,28 @@ line-height: 24px;
         border: 0;
     }
     .banner_wrapper .typing h1 span{
-        text-align: start;
+        /* text-align: start; */
         left: 0;
-        /* top: 50%; */
+        top: 50%;
         font-size: 20px;
-        margin-top: 15px;
+        margin-top: 0px;
     }
     .banner_wrapper{
         /* align-items: center; */
         background-image: url('/images/my-img.png') ;
-        background-position: left;
+        background-position: right;
         background-repeat: no-repeat;
-        background-size: 500px;
+        background-size: 400px;
+        /* bottom: 0; */
         width: 100%;
         height: auto;
         min-height: 350px;
         background-attachment: fixed;
-        padding: 200px 0 100px 0;
+        padding: 150px 0 100px 0;
     }
 
     .banner_wrapper .typing .main-btn{
-margin-top: 50px;
+margin-top: 60px;
     }
 
 
