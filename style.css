@@ -250,7 +250,7 @@ display: inline-block;
 
 .banner_wrapper .typing h1 span{
     position: absolute;
-    top: 45%;
+/*     top: 45%; */
     font-size: 30px;
     transform: translateY(-50%);
     margin: 25px 0;
